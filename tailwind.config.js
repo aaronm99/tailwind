@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         "space-grotesk": ["Space Grotesk"],
+        graphik: ["Graphik"],
       },
     },
   },
