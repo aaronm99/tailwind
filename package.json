@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
-    "tailwindcss": "^2.2.19",
     "tailwindcss-inset": "^1.0.0"
   }
 }
