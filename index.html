@@ -207,6 +207,7 @@
           <div class="font-bold font-space-grotesk text-lg text-center">
             Ut eleifend.
           </div>
+          <div class="w-24 h-px bg-customblue mx-auto"></div>
         </div>
 
         <div
@@ -237,7 +238,13 @@
           </p>
           <a
             href="#"
-            class="font-bold text-custompurple font-space-grotesk text-lg"
+            class="
+              font-bold
+              text-custompurple
+              font-space-grotesk
+              text-lg
+              border-b-2 border-customblue
+            "
             >Learn more</a
           >
         </div>
@@ -410,7 +417,9 @@
               neque dignissim morbi lacinia volutpat est. Pulvinar scelerisque
               at urna elit quisque pellentesque. Quam cursus.
             </p>
-            <a href="" class="text-white text-xl font-bold">Learn more</a>
+            <a href="" class="text-white text-xl font-bold border-b-2"
+              >Learn more</a
+            >
 
             <figure
               class="
@@ -419,9 +428,9 @@
                 right-4
                 z-50
                 pl-3
-                sm:right-32 sm:pl-0
-                md:right-56
-                lg:right-20 lg:pr-2
+                sm:right-32 sm:pr-2
+                md:right-56 md:pr-0.5
+                lg:right-20 lg:pr-2 lg:pb-2
                 xl:bottom-36
                 2xl:right-40
               "
@@ -434,6 +443,7 @@
                 absolute
                 bottom-24
                 right-6
+                pb-1
                 sm:right-36
                 md:right-56 md:pr-3
                 lg:right-24
@@ -485,11 +495,23 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   eget enim vel.
                 </h5>
-                <a
-                  href=""
-                  class="font-bold font-space-grotesk hidden xl:block xl:mb-28"
-                  >Ut convallis massa.</a
-                >
+                <div class="">
+                  <a
+                    href=""
+                    class="font-bold font-space-grotesk hidden xl:block"
+                    >Ut convallis massa.
+                  </a>
+                  <div
+                    class="
+                      hidden
+                      h-0.5
+                      w-36
+                      bg-customblue
+                      ml-0.5
+                      xl:block xl:mb-28
+                    "
+                  ></div>
+                </div>
 
                 <div class="boxes flex gap-1 mb-1 max-w-xl mx-auto xl:mx-0">
                   <div class="w-1/3 h-10 bg-custompurple"></div>
@@ -516,6 +538,7 @@
                 >
                   Read Customer Story
                 </h5>
+                <div class="xl:hidden h-0.5 w-44 mx-auto bg-customblue"></div>
               </div>
             </div>
           </div>
