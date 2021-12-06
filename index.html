@@ -194,8 +194,7 @@
             mb-16
             sm:text-center
             lg:text-left lg:ml-10
-            xl:max-w-6xl xl:mx-auto
-            2xl:mb-0
+            xl:max-w-7xl xl:mx-auto xl:mb-0
           "
         >
           <h2
@@ -203,6 +202,7 @@
               font-semibold font-space-grotesk
               text-3xl text-custompurple
               mb-5
+              md:text-4xl
               lg:text-5xl
             "
           >
@@ -220,7 +220,7 @@
             >Learn more</a
           >
         </div>
-        <figure class="px-5 mb-20">
+        <figure class="px-5 mb-20 2xl:max-w-7xl 2xl:px-0 2xl:mx-auto">
           <img
             src="./assets/connectmobile.png"
             alt=""
@@ -229,7 +229,7 @@
           <img
             src="./assets/connect.png"
             alt=""
-            class="hidden lg:mx-auto lg:block xl:mr-6 2xl:mr-20"
+            class="hidden lg:mx-auto lg:block xl:mr-6"
           />
         </figure>
         <div class="2xl:mx-10">
@@ -240,7 +240,7 @@
               via-gradientteal
               to-gradientlight
               mx-5
-              2xl:max-w-screen-2xl 2xl:mx-auto
+              2xl:max-w-screen-2xl 2xl:mx-auto 2xl:py-20
             "
           >
             <div
@@ -256,6 +256,7 @@
                   sm:text-center
                   lg:text-left lg:w-1/2 lg:py-32 lg:px-10
                   xl:px-20
+                  2xl:pl-28 2xl:pr-0
                 "
               >
                 <h2
@@ -287,34 +288,27 @@
                   lectus eget bibendum. At praesent quisque sollicitudin fusce.
                 </p>
               </div>
-              <div class="sm:flex-col lg:w-1/2 xl:pl-7">
-                <a
-                  class="
-                    cursor-pointer
-                    sm:flex sm:justify-center
-                    lg:block
-                    xl:pl-1
-                    2xl:pl-28
-                  "
+
+              <div
+                class="
+                  flex-col
+                  mt-8
+                  pb-11
+                  pl-6
+                  sm:pl-8
+                  md:flex md:justify-center md:items-center
+                  lg:items-start
+                  xl:pl-7 xl:justify-end
+                "
+              >
+                <a class="cursor-pointer"
                   ><button
-                    class="bg-customblue text-white font-graphik py-2 px-3 mx-7"
+                    class="bg-customblue text-white font-graphik py-2 px-3 mb-6"
                   >
                     Add task
                   </button></a
                 >
-                <figure
-                  class="
-                    flex
-                    mt-8
-                    pb-11
-                    pl-6
-                    sm:pl-8
-                    md:justify-center
-                    xl:justify-end
-                  "
-                >
-                  <img src="./assets/schedulecrop.png" alt="" />
-                </figure>
+                <img src="./assets/schedulecrop.png" alt="" />
               </div>
             </div>
           </div>
@@ -382,6 +376,7 @@
             <p
               class="
                 text-white
+                opacity-90
                 leading-7
                 font-graphik
                 max-w-md
