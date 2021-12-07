@@ -610,6 +610,14 @@ video {
   src: url(../fonts/GraphikRegular.otf) format("opentype");
 }
 
+@font-face {
+  font-family: Founders Grotesk;
+
+  font-weight: 400;
+
+  src: url(../fonts/test-founders-grotesk-regular.woff2) format("woff2");
+}
+
 .container{
   width: 100%;
 }
@@ -23055,6 +23063,10 @@ video {
 
 .font-graphik{
   font-family: Graphik;
+}
+
+.font-founders-grotesk{
+  font-family: Founders Grotesk;
 }
 
 .text-xs{
@@ -55905,6 +55917,10 @@ video {
     font-family: Graphik;
   }
 
+  .sm\:font-founders-grotesk{
+    font-family: Founders Grotesk;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -88371,6 +88387,10 @@ video {
 
   .md\:font-graphik{
     font-family: Graphik;
+  }
+
+  .md\:font-founders-grotesk{
+    font-family: Founders Grotesk;
   }
 
   .md\:text-xs{
@@ -120841,6 +120861,10 @@ video {
     font-family: Graphik;
   }
 
+  .lg\:font-founders-grotesk{
+    font-family: Founders Grotesk;
+  }
+
   .lg\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -153309,6 +153333,10 @@ video {
     font-family: Graphik;
   }
 
+  .xl\:font-founders-grotesk{
+    font-family: Founders Grotesk;
+  }
+
   .xl\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -185775,6 +185803,10 @@ video {
 
   .\32xl\:font-graphik{
     font-family: Graphik;
+  }
+
+  .\32xl\:font-founders-grotesk{
+    font-family: Founders Grotesk;
   }
 
   .\32xl\:text-xs{

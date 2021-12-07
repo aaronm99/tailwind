@@ -10,4 +10,9 @@
     font-weight: 400;
     src: url(../fonts/GraphikRegular.otf) format("opentype");
   }
+  @font-face {
+    font-family: Founders Grotesk;
+    font-weight: 400;
+    src: url(../fonts/test-founders-grotesk-regular.woff2) format("woff2");
+  }
 }

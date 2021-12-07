@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {
         "space-grotesk": ["Space Grotesk"],
         graphik: ["Graphik"],
+        "founders-grotesk": ["Founders Grotesk"],
       },
     },
   },
